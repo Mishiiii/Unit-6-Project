@@ -1,0 +1,28 @@
+body {
+   font-family: 'Srisakdi', cursive;
+}
+
+
+
+.container, .results {
+    width: 400px;
+    padding: 10px;
+    margin: 50px auto;
+    border: 5px solid black;
+    border-radius: 20px;
+    background-color:#FC6C6C ;
+    
+    transition: background-color .5s ease-in-out;
+    transition: border .2s ease-in-out;
+}
+
+
+.container:hover {
+    background-color:lightblue;
+    border-color: black;
+}
+
+.results:hover {
+    background-color: lightblue; 
+}
+    
