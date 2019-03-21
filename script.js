@@ -2,12 +2,13 @@ $(".button").click(function() {
     var newTeam = $(".name").val();
     
     var comment = $(".thing").val();
+
     
-    var answer = $(".times").val();
-    var total = answer * 52 * 31;
+     var answer = $(".times").val();
+     var total = answer * 52 * 31;
     
-    var full = "In the year 2050," + " " + newTeam + " " + "will eat " + " " + comment + " " + total + ". ";
-    $(".results").text(full);
+     var full = "In the year 2050," + " " + newTeam + " " + "will eat " + " " + comment + " " + total + ". ";
+     $(".results").text(full);
   
 });  
     // var firstNAme = "Alex";
